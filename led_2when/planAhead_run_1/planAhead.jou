@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Thu Oct 20 14:43:00 2022
+# Process ID: 1860
+# Log file: C:/Users/AB3/OneDrive/Documents/led_2when/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/AB3/OneDrive/Documents/led_2when/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/AB3/OneDrive/Documents/led_2when/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin K13 [get_ports A]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports B]
+endgroup
+startgroup
+set_property package_pin J13 [get_ports C]
+endgroup
+startgroup
+set_property package_pin K12 [get_ports Y_0]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports Y_1]
+endgroup
+startgroup
+set_property package_pin L12 [get_ports Y_2]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports Y_3]
+endgroup
+startgroup
+set_property package_pin P13 [get_ports Y_4]
+endgroup
+startgroup
+set_property package_pin N12 [get_ports Y_5]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports Y_6]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports Y_7]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list A]]
+set_property iostandard LVCMOS33 [get_ports [list B]]
+set_property iostandard LVCMOS33 [get_ports [list C]]
+set_property iostandard LVCMOS33 [get_ports [list Y_0]]
+set_property iostandard LVCMOS33 [get_ports [list Y_1]]
+set_property iostandard LVCMOS33 [get_ports [list Y_2]]
+set_property iostandard LVCMOS33 [get_ports [list Y_3]]
+set_property iostandard LVCMOS33 [get_ports [list Y_4]]
+set_property iostandard LVCMOS33 [get_ports [list Y_5]]
+set_property iostandard LVCMOS33 [get_ports [list Y_6]]
+set_property iostandard LVCMOS33 [get_ports [list Y_7]]
+save_constraints
